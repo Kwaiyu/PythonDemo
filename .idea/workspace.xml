@@ -20,16 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76658f7-3303-458a-ba64-5e5c67c90872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/orm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/test_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/config_default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/config_override.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/coroweb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/markdown2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/test_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/test_sql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -56,12 +62,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
-  <component name="RunManager" selected="Python.orm">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="schema.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/www/schema.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="d46c7186-90b3-4c1b-a1e6-90432b506701" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,10 +122,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_sql.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/www" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sql.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_sql.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/www" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/www/test_sql.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.schema.sql" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.orm" />
+      <item itemvalue="Python tests.pytest in test_sql.py" />
+      <item itemvalue="Python tests.pytest for test_sql.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.orm" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.pytest in test_sql.py" />
+        <item itemvalue="Python tests.pytest for test_sql.test" />
+        <item itemvalue="Python.orm" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +184,7 @@
       <updated>1612323825361</updated>
       <workItem from="1612323835054" duration="2766000" />
       <workItem from="1612331805310" duration="10457000" />
+      <workItem from="1613713529766" duration="12259000" />
     </task>
     <servers />
   </component>
@@ -144,29 +204,47 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="41" key="#Inspections" timestamp="1613716176751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="41" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1613716176751" />
     <state x="565" y="225" key="#Notifications" timestamp="1612323894678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1612323894678" />
-    <state width="1322" height="275" key="GridCell.Tab.0.bottom" timestamp="1612344889826">
+    <state x="274" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613716973115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612344889826" />
-    <state width="1322" height="275" key="GridCell.Tab.0.center" timestamp="1612344889825">
+    <state x="274" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1613716973115" />
+    <state x="379" y="10" key="#schema.sql" timestamp="1613720915236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612344889825" />
-    <state width="1322" height="275" key="GridCell.Tab.0.left" timestamp="1612344889825">
+    <state x="379" y="10" key="#schema.sql/0.0.1366.728@0.0.1366.728" timestamp="1613720915236" />
+    <state width="1322" height="303" key="GridCell.Tab.0.bottom" timestamp="1613727183135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="275" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612344889825" />
-    <state width="1322" height="275" key="GridCell.Tab.0.right" timestamp="1612344889826">
+    <state width="1322" height="303" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613727183135" />
+    <state width="1322" height="303" key="GridCell.Tab.0.center" timestamp="1613727183135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="275" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612344889826" />
+    <state width="1322" height="303" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613727183135" />
+    <state width="1322" height="303" key="GridCell.Tab.0.left" timestamp="1613727183135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="303" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613727183135" />
+    <state width="1322" height="303" key="GridCell.Tab.0.right" timestamp="1613727183135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="303" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613727183135" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1613716668732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1613716668732" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1612335860783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
+    <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1613725954402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
     <SUITE FILE_PATH="coverage/PythonDemo$orm.coverage" NAME="orm Coverage Results" MODIFIED="1612341952933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
+    <SUITE FILE_PATH="coverage/PythonDemo$pytest_in_test_sql_py.coverage" NAME="pytest in test_sql.py Coverage Results" MODIFIED="1613722098665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
+    <SUITE FILE_PATH="coverage/PythonDemo$pytest_for_test_sql_test.coverage" NAME="pytest for test_sql.test Coverage Results" MODIFIED="1613720300601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
   </component>
 </project>

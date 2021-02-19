@@ -3,7 +3,7 @@ import time, uuid
 from www.orm import Model, StringField, BooleanField, FloatField, TextField
 
 def next_id():
-    # uuid.uuid4() 可以生成一个随机的 UUID ，目的是区别不同事务（大概）
+    # uuid.uuid4() 可以生成一个随机的 UUID ，目的是区别不同事务
     # hex 可以把自身返回为一个16进制整数，所以这个函数就是生成各种 id ，里面还包含时间
     return '%015d%s000' % (int(time.time() * 1000), uuid.uuid4().hex)
 
@@ -41,4 +41,3 @@ class Comment(Model):
     user_image = StringField(ddl='varchar(500)')
     content = TextField()
     created_at = FloatField(default=time.time)
-# 数据库的测试在test_sql.py
