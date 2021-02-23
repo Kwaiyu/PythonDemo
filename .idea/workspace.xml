@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e76658f7-3303-458a-ba64-5e5c67c90872" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/handlers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,7 @@
       <workItem from="1612331805310" duration="10457000" />
       <workItem from="1613713529766" duration="12259000" />
       <workItem from="1613979727145" duration="6070000" />
-      <workItem from="1614045920257" duration="10955000" />
+      <workItem from="1614045920257" duration="12450000" />
     </task>
     <servers />
   </component>
@@ -258,17 +256,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="301" y="0" width="598" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614064805855" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/www/handlers.py</url>
-          <line>128</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1614064258418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
