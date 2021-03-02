@@ -4,13 +4,10 @@
 ' url handlers '
 
 import re, time, json, logging, hashlib, base64, asyncio
-
 import www.markdown2
 from aiohttp import web
-
 from www.coroweb import get, post
 from www.apis import Page, APIValueError, APIResourceNotFoundError, APIPermissionError, APIError
-
 from www.models import User, Comment, Blog, next_id
 from www.config import configs
 
