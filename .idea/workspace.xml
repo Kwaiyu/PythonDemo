@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76658f7-3303-458a-ba64-5e5c67c90872" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/templates/__base__.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/templates/__base__.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/config_default.py" beforeDir="false" afterPath="$PROJECT_DIR$/www/config_default.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +179,7 @@
       <workItem from="1614667965826" duration="411000" />
       <workItem from="1614738524999" duration="1960000" />
       <workItem from="1614929425034" duration="1146000" />
+      <workItem from="1615345888956" duration="522000" />
     </task>
     <servers />
   </component>
@@ -222,22 +223,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614668281009" />
-    <state width="1322" height="429" key="GridCell.Tab.0.bottom" timestamp="1614931434071">
+    <state width="1322" height="69" key="GridCell.Tab.0.bottom" timestamp="1615346430067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="429" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614931434071" />
-    <state width="1322" height="429" key="GridCell.Tab.0.center" timestamp="1614931434071">
+    <state width="1322" height="69" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615346430067" />
+    <state width="1322" height="69" key="GridCell.Tab.0.center" timestamp="1615346430067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="429" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614931434071" />
-    <state width="1322" height="429" key="GridCell.Tab.0.left" timestamp="1614931434070">
+    <state width="1322" height="69" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615346430067" />
+    <state width="1322" height="69" key="GridCell.Tab.0.left" timestamp="1615346430067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="429" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614931434070" />
-    <state width="1322" height="429" key="GridCell.Tab.0.right" timestamp="1614931434071">
+    <state width="1322" height="69" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615346430067" />
+    <state width="1322" height="69" key="GridCell.Tab.0.right" timestamp="1615346430067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="429" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614931434071" />
+    <state width="1322" height="69" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615346430067" />
     <state width="1322" height="270" key="GridCell.Tab.1.bottom" timestamp="1614066470194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,7 +273,7 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614751141110" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1614929496779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
+    <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1615346150127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
     <SUITE FILE_PATH="coverage/PythonDemo$orm.coverage" NAME="orm Coverage Results" MODIFIED="1612341952933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
     <SUITE FILE_PATH="coverage/PythonDemo$pytest_in_test_sql_py.coverage" NAME="pytest in test_sql.py Coverage Results" MODIFIED="1613722098665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
     <SUITE FILE_PATH="coverage/PythonDemo$pytest_for_test_sql_test.coverage" NAME="pytest for test_sql.test Coverage Results" MODIFIED="1613720300601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www" />
